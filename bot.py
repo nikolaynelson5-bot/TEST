@@ -9,7 +9,7 @@ from datetime import datetime, date, timedelta
 import re
 
 # ⚠️ ВАЖНО: Токен нужно заменить! Этот токен скомпрометирован
-TOKEN = os.getenv("MTQ3MzAyODQ0NzA3NjA5NDAxMw.GvPL4r.1QhQ1d21Ol0rM4MO6Rs-YzKjg-ZPWg79QDjypM")  # Получите новый токен в Discord Developer Portal
+TOKEN = os.getenv("DISCORD_TOKEN")  # Получите новый токен в Discord Developer Portal
 
 CSV_URL = "https://docs.google.com/spreadsheets/d/18LXeD2pB0YpsfsPWPhe0PXgNKVL4L35gXykD3eNcqV8/export?format=csv"
 
